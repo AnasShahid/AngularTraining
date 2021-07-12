@@ -1,0 +1,15 @@
+.green{
+    background-color: green;
+    color:honeydew;
+}
+.red{
+    background-color: maroon;
+    color:honeydew;
+}
+.example-content-area {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+  }

@@ -1,0 +1,4 @@
+<div class="example-content-area">
+    <button mat-button (click)="showContent = !showContent" [ngClass]="{green:!showContent, red:showContent}">Toggle Content</button>
+    <p *ngIf="showContent" appHighlight >{{dummyText}}</p>
+  </div>
